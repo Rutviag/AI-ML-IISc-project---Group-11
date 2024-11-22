@@ -64,10 +64,15 @@ After data cleaning and preprocessing, the dataset used for training and evaluat
 
 ### 5. REST API Deployment
 - **Containerized the Model**: Used Docker to package the trained ML model and dependencies into a containerized environment.
-- **REST API Endpoint**: Built a REST API using Flask to serve the model. The API accepts input data as JSON and returns the predicted delay in minutes.
-- **Web Server Deployment**: Deployed the Flask application using a lightweight web server (e.g., Gunicorn) for production readiness.
+- **REST API Endpoint**: Built a REST API using FAST API  to serve the model. The API accepts input data as JSON and returns the predicted delay in minutes.
+- **Web Server Deployment**: Deployed the application using a lightweight web server (e.g., uvicorn) for production readiness.
 - **API Testing**: Postman was used to test the API endpoints, ensuring correct functionality.
-
+- ***Overall ML Pipleline Strategy ***
+  1. app.py contains the code to deploy the model and provide the REST End point.
+  2. Create a Dockerfile with instructions to run the FAST API as above.
+  3. train_and_deploy.sh will automate the process above i.e. Train, Build and push the docker image.
+  4. train_and_deploy_cron.sh will create a cron job and run the file train_and_deploy.sh as per the times specified in the file. (e.g. every 30 secs, hourly etc).
+     
 ### 6. Automation
 - **Python Cron Job**: Implemented a cron job to periodically retrain the model with new data, ensuring predictions remain accurate as new trends in flight delays emerge.
 
