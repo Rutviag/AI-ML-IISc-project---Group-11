@@ -132,4 +132,31 @@ flight-delay-prediction
 ├── docs               # final presentation file
 ├── notebook
     |─── flight_delay.ipynb  # Jupyter Notebook containing the code
+
+### Refrences
+
+[1] Navoneel Chakrabarty, Tuhin Kundu, Sudipta Dandapat, Apurba Sarkar, and Dipak Kumar Kole. Flight arrival
+delay prediction using gradient boosting classifier. InEmerging Technologies in Data Mining and Information
+Security, pages 651–659. Springer, 2019.
+[2] Samprit Chatterjee and Ali S Hadi.Regression analysis by example. John Wiley & Sons, 2015.
+```
+```
+[3] Yi Ding. Predicting flight delay based on multiple linear regression. InIOP Conference Series: Earth and
+Environmental Science, volume 81, page 012198. IOP Publishing, 2017.
+```
+```
+[4] Suvojit Manna, Sanket Biswas, Riyanka Kundu, Somnath Rakshit, Priti Gupta, and Subhas Barman. A statis-
+tical approach to predict flight delay using gradient boosted decision tree. In2017 International Conference on
+Computational Intelligence in Data Science (ICCIDS), pages 1–5. IEEE, 2017.
+```
+```
+[5] Brett Naul. Airline departure delay prediction.
+```
+```
+[6] Jianmo Ni, Xinyuan Wang, and Ziliang Li. Flight delay prediction using temporal and geographical information.
+```
+```
+[7] Astrid Schneider, Gerhard Hommel, and Maria Blettner. Linear regression analysis: part 14 of a series on
+evaluation of scientific publications.DeutschesArzteblatt International ̈ , 107(44):776, 2010.https://www.ncbi.
+nlm.nih.gov/pmc/articles/PMC2992018/.
 ```
