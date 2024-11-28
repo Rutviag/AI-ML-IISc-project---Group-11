@@ -78,13 +78,14 @@ After data cleaning and preprocessing, the dataset used for training and evaluat
 
 ## Results
 
-| Model                   |  MSE   | R²    | Accuracy (%) |
-|--------------------------|--------|-------|--------------|
-| Decision Tree            | 5367.13| -0.446| 69.17        |
-| Random Forest            | 2837.40| 0.236 | 70.38        |
-| CatBoost                 | 2545.77| 0.314 | 73.88        |
-| XGBoost                  | 2581.86| 0.304 | 73.62        |
-| Deep Neural Network (DNN)| 2312.54| 0.365 | 75.12        |
+
+| Model            | MSE      | R²     | Accuracy (%) |
+|------------------|----------|--------|--------------|
+| Decision Tree    | 4799.99  | -0.53  | 76.48        |
+| Random Forest    | 2406.08  |  0.23  | 78.32        |
+| CatBoost         | 2322.16  |  0.26  | 81.56        |
+| XGBoost          | 2417.35  |  0.23  | 81.45        |
+
 
 The DNN outperformed traditional models with the lowest MSE, highest R², and improved accuracy. However, further optimization is needed to meet the target of 85% accuracy.
 
